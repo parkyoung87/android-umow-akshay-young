@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/libs/PayPalAndroidSDK-2.7.3.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="6e9613e40eb3aedfe738fa16e20f8a144896057f">
+        <dex dex="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/pre-dexed/debug/PayPalAndroidSDK-2.7.3-6d04c2cdd9163520354211d79afefc27337730e4.jar" />
+    </item>
+    <item
+        jar="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/pre-dexed/debug/classes-3c5f32ce484ecbdc81703367890fed3e40afad92.jar" />
+    </item>
+    <item
+        jar="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/pre-dexed/debug/classes-04ece2e566edd2de14d6478dc401ed6481e570c9.jar" />
+    </item>
+    <item
+        jar="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
+        <dex dex="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-ef0a01c36aa1d76facb32a1e059b393d937c66a6.jar" />
+    </item>
+    <item
+        jar="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/libs/Parse-1.7.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="87c45f9f66da531a65f065ee32f603c7e6db1528">
+        <dex dex="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/pre-dexed/debug/Parse-1.7.1-613b6ed2f0dd06baca70a0de0d8adc01475b2fee.jar" />
+    </item>
+    <item
+        jar="/Users/julio/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.2-4c26605bcc1a7cbbaa5c910684dd97788d67b05a.jar" />
+    </item>
+    <item
+        jar="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
+        <dex dex="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/pre-dexed/debug/classes-55169baa7b0bfea92b54abf6cd4c293dba9df352.jar" />
+    </item>
+    <item
+        jar="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-7a57e19fce61ca4061c87836493892ad3e89d268.jar" />
+    </item>
+    <item
+        jar="/Users/julio/Downloads/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/julio/Downloads/uMow-android-master-master-Akshay/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-30a87d1fbf304e22cfe793bac063fcd0e3fbfc59.jar" />
+    </item>
+
+</items>
