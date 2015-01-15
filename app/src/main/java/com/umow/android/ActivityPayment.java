@@ -67,6 +67,8 @@ public class ActivityPayment extends Activity {
     private int year, month, day;
     String date_Mow;
 
+
+
     // address from previous activity
 
     //String address = getIntent().getExtras().getString("address");
@@ -81,10 +83,12 @@ public class ActivityPayment extends Activity {
      * - Set to PayPalConfiguration.ENVIRONMENT_NO_NETWORK to kick the tires
      * without communicating to PayPal's servers.
      */
-    private static final String CONFIG_ENVIRONMENT = PayPalConfiguration.ENVIRONMENT_SANDBOX;
+    private static final String CONFIG_ENVIRONMENT = PayPalConfiguration.ENVIRONMENT_PRODUCTION;
 
     // note that these credentials will differ between live & sandbox environments.
-    private static final String CONFIG_CLIENT_ID = "AebJuRAR0HcDDHuQ4upw9ZJd09y8sFEhad3Yfd6HMoz9LRj41GKptMvLBdQ5";
+    //sandbox client id: AebJuRAR0HcDDHuQ4upw9ZJd09y8sFEhad3Yfd6HMoz9LRj41GKptMvLBdQ5
+
+    private static final String CONFIG_CLIENT_ID = "ASrxKBAPC9-ATOHg1Pwn6h5wBW7oGY01Bp8X_w4kOFVGGQOuF3vz5teKjFEj";
 
     private static final int REQUEST_CODE_PAYMENT = 1;
     private static final int REQUEST_CODE_FUTURE_PAYMENT = 2;
@@ -124,7 +128,6 @@ public class ActivityPayment extends Activity {
         Toast.makeText(getApplicationContext(), "ca", Toast.LENGTH_SHORT)
                 .show();
     }
-
     @Override
     protected Dialog onCreateDialog(int id) {
         // TODO Auto-generated method stub
@@ -161,8 +164,10 @@ public class ActivityPayment extends Activity {
     private void job(){
         ParseObject requesting = new ParseObject("Requesting");
         String address = getIntent().getExtras().getString("address");
+        String Username = getIntent().getExtras().getString("Username");
         requesting.put("Date",date_Mow);
         requesting.put("Address",address);
+        requesting.put("Username",Username);
         requesting.saveInBackground();
 
     }
