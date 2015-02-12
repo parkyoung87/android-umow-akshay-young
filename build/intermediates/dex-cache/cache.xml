@@ -2,67 +2,67 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.0\libs\internal_impl-21.0.0.jar"
+        jar="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\libs\PayPalAndroidSDK-2.7.3.jar"
         jumboMode="false"
         revision="21.0.2"
-        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
-        <dex dex="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-c624eb4b30afa3a8aa195b413af1b1c4b3e42636.jar" />
-    </item>
-    <item
-        jar="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-faaf53b64b05ecf01b76112a3c58cac21232429c.jar" />
+        sha1="6e9613e40eb3aedfe738fa16e20f8a144896057f">
+        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-2.7.3-fb544238ad288633b4d1155309439af0a611426d.jar" />
     </item>
     <item
         jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.2\91c20388c9a45f62b5ed8fe0502bb76ff6251fc7\bolts-android-1.1.2.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
-        <dex dex="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-da2391c646f27eb580f5f3f97f2539f41d14cb23.jar" />
+        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-da2391c646f27eb580f5f3f97f2539f41d14cb23.jar" />
+    </item>
+    <item
+        jar="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-7186a582e10fde7d5e4d58888336a2b91db59c69.jar" />
     </item>
     <item
         jar="C:\Users\Akshay\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-d0ff44fb10094c1ef95c5904172071a0293c099f.jar" />
+        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-d0ff44fb10094c1ef95c5904172071a0293c099f.jar" />
     </item>
     <item
-        jar="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\pre-dexed\debug\classes-08a57a97c9fb367439d84d0f19f13160f0485c53.jar" />
-    </item>
-    <item
-        jar="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.0\classes.jar"
+        jar="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.0\classes.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
-        <dex dex="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\pre-dexed\debug\classes-3eab293a6536aa820e465db71f502d7ad202aa80.jar" />
+        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\classes-4976766fdfd8a1fe767fddc0d63f5ff1e3927a39.jar" />
     </item>
     <item
-        jar="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\libs\Parse-1.7.1.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="87c45f9f66da531a65f065ee32f603c7e6db1528">
-        <dex dex="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\pre-dexed\debug\Parse-1.7.1-4a68f23c73ea91dd3f33bf0db03c69fa6e09cda8.jar" />
-    </item>
-    <item
-        jar="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\libs\PayPalAndroidSDK-2.7.3.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="6e9613e40eb3aedfe738fa16e20f8a144896057f">
-        <dex dex="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-2.7.3-4308e37b7065a3c6f2ffbfb018fc378bd32203d1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jar="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="C:\Users\Akshay\Desktop\android-umow-akshay-young-master\android-umow-akshay-young-master\app\build\intermediates\pre-dexed\debug\classes-d1714bbbf9a1270e674586f6b96cea35c681e702.jar" />
+        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\classes-b8a19a1513e808670dcedadef9ab6a289281ea81.jar" />
+    </item>
+    <item
+        jar="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\libs\Parse-1.7.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="87c45f9f66da531a65f065ee32f603c7e6db1528">
+        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\Parse-1.7.1-8bd498b740dfee625ed5f55b3f94916a7611d740.jar" />
+    </item>
+    <item
+        jar="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\classes-b9ae18b0963476d478570c42269785bc82dfa394.jar" />
+    </item>
+    <item
+        jar="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
+        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-420365cd3d44d2b8044dd9cd4c0c4587ecedd4eb.jar" />
     </item>
 
 </items>
