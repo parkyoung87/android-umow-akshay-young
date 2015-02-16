@@ -191,6 +191,17 @@ public class ActivitySearch extends Activity_Base {
 
                             Marker marker3 = googleMap.addMarker(new MarkerOptions().position( new LatLng(Lat2,Lng2)).title("Landscaper").icon(BitmapDescriptorFactory.fromResource(R.drawable.grass2)));
 
+                            googleMap.setOnInfoWindowClickListener( new GoogleMap.OnInfoWindowClickListener() {
+                                @Override
+                                public void onInfoWindowClick(Marker marker) {
+                                    String temp_user = getIntent().getExtras().getString("Username");
+                                    Intent intent = new Intent(ActivitySearch.this, ActivityLandscaper.class);
+                                    intent.putExtra("address",temp);
+                                    intent.putExtra("Username",temp_user);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                    startActivity(intent);
+                                }
+                            });
 
 
                             // query successful
