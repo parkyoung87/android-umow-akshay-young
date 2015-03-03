@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.umow.android" >
+    package="com.umow.android"
+    android:versionCode="2"
+    android:versionName="1.1">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -87,6 +89,19 @@
             android:name=".ActivityAdmin"
             android:label="Admin"/>
 
+        <activity
+            android:name=".ActivitySetting"
+            android:label="Intro"/>
+
+        <activity
+            android:name=".ActivitySetting2"
+            android:label="ActivitySetting2"/>
+
+        <activity
+            android:name=".ActivityBuyCredit"
+            android:label="ActivityBuyCredit"/>
+
+
         //paypal
         <service android:name="com.paypal.android.sdk.payments.PayPalService"
             android:exported="false" />
@@ -110,7 +125,8 @@
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyBUXSZuBRFTsNukW_R53fLPF9l2vvN4UFw" />
+            android:value="AIzaSyAEBlFJgDdARluH_Mduhq3ggdQvTH8Ulwc" />
+
         
     </application>
 

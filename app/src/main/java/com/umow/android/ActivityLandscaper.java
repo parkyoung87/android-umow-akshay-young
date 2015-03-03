@@ -38,8 +38,10 @@ public class ActivityLandscaper extends Activity_Base {
         btnconfirmlanscaper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String temp_user = getIntent().getExtras().getString("Username");
                 Intent intent = new Intent(v.getContext(), ActivityPayment.class);
                 intent.putExtra("address",temp);
+                intent.putExtra("Username", temp_user);
                 startActivityForResult(intent, 0);
             }
         });

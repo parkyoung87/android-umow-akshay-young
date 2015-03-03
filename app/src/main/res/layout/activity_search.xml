@@ -35,7 +35,10 @@
             android:name="com.google.android.gms.maps.MapFragment"
             android:layout_width="match_parent"
             android:layout_height="305dp"
-            android:layout_weight="0.36" />
+            android:layout_weight="0.36"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
        </RelativeLayout>
     </LinearLayout>
 

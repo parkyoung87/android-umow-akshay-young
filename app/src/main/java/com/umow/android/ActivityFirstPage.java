@@ -19,7 +19,7 @@ import com.parse.ParseUser;
 public class ActivityFirstPage extends Activity_Base {
 
     private EditText UsernameView;
-    private EditText PasswordView;
+     private EditText PasswordView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,14 +81,22 @@ public class ActivityFirstPage extends Activity_Base {
 
                     @Override
                     public void done(ParseUser user, ParseException e) {
+
+
+
                         dlg.dismiss();
                         if (e != null) {
                             // Show the error message
                             Toast.makeText(ActivityFirstPage.this, e.getMessage(), Toast.LENGTH_LONG).show();
                         } else {
+
+                            // Username for requesting
+                            String temp_user = UsernameView.getText().toString();
+
                             // Start an intent for the dispatch activity
                             //Intent intent = new Intent(ActivityFirstPage.this, ActivitySandbox.class);
-                            Intent intent = new Intent(ActivityFirstPage.this, ActivitySearch.class);
+                            Intent intent = new Intent(ActivityFirstPage.this, ActivitySetting.class);
+                            intent.putExtra("Username",temp_user);
                             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                             startActivity(intent);
                         }
@@ -104,6 +112,7 @@ public class ActivityFirstPage extends Activity_Base {
             ((Button) findViewById(R.id.activity_login_button_createaccount)).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+
                     Intent intent = new Intent(ActivityFirstPage.this, ActivityCreateAccount.class);
                     startActivity(intent);
                 }

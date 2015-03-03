@@ -216,6 +216,8 @@ public class ActivitySearch extends Activity_Base {
                                         for (ParseUser user : users) {
                                             values[i] = user.getUsername();
                                             i++;
+
+
                                         }
 
                                         ArrayAdapter<String> adapter = new ArrayAdapter<String>(ActivitySearch.this, android.R.layout.simple_list_item_1, android.R.id.text1, values);
@@ -237,8 +239,10 @@ public class ActivitySearch extends Activity_Base {
                                                 */
 
                                                 // Start an intent
+                                                String temp_user = getIntent().getExtras().getString("Username");
                                                 Intent intent = new Intent(ActivitySearch.this, ActivityLandscaper.class);
                                                 intent.putExtra("address",temp);
+                                                intent.putExtra("Username",temp_user);
                                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                                 startActivity(intent);
                                             }
