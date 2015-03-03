@@ -5,7 +5,8 @@
     android:id="@+id/activity_landscaper_drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6fc435">
+    android:background="@drawable/grassback"
+    >
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -19,7 +20,7 @@
             android:padding="8dp"
             android:text="Grass Hopper Lanscaping Austin"
             android:id="@+id/landscapertitle"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="@dimen/textsize_large" />
 
         <TextView
@@ -34,7 +35,7 @@
             android:text="Services: Lawn Mowing, Leaf Pick Up, Edging."
             android:id="@+id/textView3"
             android:layout_weight="0.07"
-            android:textColor="@color/white" />
+            android:textColor="@color/black" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -50,7 +51,7 @@
             android:text="Availability: Available"
             android:id="@+id/textView4"
             android:phoneNumber="false"
-            android:textColor="@color/white" />
+            android:textColor="@color/black" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -64,7 +65,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Description:"
             android:id="@+id/textView7"
-            android:textColor="@color/white" />
+            android:textColor="@color/black" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -72,7 +73,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="12 Years of experience in Austin with price you can&apos;t beat"
             android:id="@+id/textView5"
-            android:textColor="@color/white" />
+            android:textColor="@color/black" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -106,9 +107,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="pick this landscaper"
+            android:background="#0000"
             android:id="@+id/btnpicklandscaper"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/white" />
+            android:textColor="@color/black"
+            android:layout_weight="0.07" />
+
+        <ImageButton
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:onClick="showPopup"
+            android:layout_weight="0.23"
+            android:layout_gravity="right" />
+
 
     </LinearLayout>
 

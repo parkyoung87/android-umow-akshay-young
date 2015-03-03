@@ -189,7 +189,7 @@ public class ActivitySearch extends Activity_Base {
 
                             Marker marker2 = googleMap.addMarker(new MarkerOptions().position(newLatLng).title("your lawn").icon(BitmapDescriptorFactory.fromResource(R.drawable.grass2)));
 
-                            Marker marker3 = googleMap.addMarker(new MarkerOptions().position( new LatLng(Lat2,Lng2)).title("Landscaper").icon(BitmapDescriptorFactory.fromResource(R.drawable.grass2)));
+                            Marker marker3 = googleMap.addMarker(new MarkerOptions().position( new LatLng(Lat2,Lng2)).title("Grasshopper Landscaping").icon(BitmapDescriptorFactory.fromResource(R.drawable.grass2)));
 
                             googleMap.setOnInfoWindowClickListener( new GoogleMap.OnInfoWindowClickListener() {
                                 @Override
@@ -219,7 +219,7 @@ public class ActivitySearch extends Activity_Base {
                                     if (e == null) {
                                         // The query was successful.
 
-                                        final ListView listView = (ListView) findViewById(R.id.activity_search_listview_landscapers);
+                                       final ListView listView = (ListView) findViewById(R.id.activity_search_listview_landscapers);
 
                                         String[] values = new String[users.size()];
 

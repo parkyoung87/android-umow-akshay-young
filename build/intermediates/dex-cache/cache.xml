@@ -16,13 +16,6 @@
         <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-da2391c646f27eb580f5f3f97f2539f41d14cb23.jar" />
     </item>
     <item
-        jar="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-7186a582e10fde7d5e4d58888336a2b91db59c69.jar" />
-    </item>
-    <item
         jar="C:\Users\Akshay\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
         jumboMode="false"
         revision="21.0.2"
@@ -35,6 +28,13 @@
         revision="21.0.2"
         sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
         <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\classes-4976766fdfd8a1fe767fddc0d63f5ff1e3927a39.jar" />
+    </item>
+    <item
+        jar="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-7186a582e10fde7d5e4d58888336a2b91db59c69.jar" />
     </item>
     <item
         jar="C:\Users\Akshay\Documents\GitHub\android-umow-akshay-young\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"

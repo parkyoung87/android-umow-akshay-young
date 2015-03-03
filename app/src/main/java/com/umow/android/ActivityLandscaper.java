@@ -5,12 +5,14 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.PopupMenu;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -160,6 +162,9 @@ public class ActivityLandscaper extends Activity_Base {
     protected int getContentViewResourceId() {
         return R.layout.activity_landscaper;
     }
+
+    
+
 
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
